@@ -1,0 +1,28 @@
+/* Tighten image spacing globally */
+img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Limit image width for readability */
+img {
+  max-width: 25%;
+  max-length: 30%;
+}
+
+/* Center images cleanly */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Reduce spacing between stacked images (hobbies section) */
+img + img {
+  margin-top: 0.5rem;
+}
+
+/* Optional: subtle rounding (very minimal) */
+img {
+  border-radius: 4px;
+}

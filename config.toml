@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Maidawa"
+theme = "bearblog"
+
+enableRobotsTXT = true
+
+[params]
+  description = "Research, systems, teaching, football, and some humour"
